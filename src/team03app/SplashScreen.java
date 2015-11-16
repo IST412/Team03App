@@ -8,7 +8,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
 
 /**
  *
@@ -26,6 +25,7 @@ public class SplashScreen extends JFrame {
         this.initCustomComponents();
         this.setSize(400, 300);
         this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
     
     public void initCustomComponents(){
@@ -36,7 +36,7 @@ public class SplashScreen extends JFrame {
         imagePanel.add(textLabel);
         this.getContentPane().add(imagePanel);
         this.setResizable(false);
-        this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         
     }
 }

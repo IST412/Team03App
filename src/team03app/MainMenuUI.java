@@ -19,6 +19,7 @@ public class MainMenuUI extends JFrame{
     public MainMenuUI(){
         this.setSize(800, 600);
         this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setLayout(MainMenuLayout);
         this.add(new JButton("Social Zone"));
