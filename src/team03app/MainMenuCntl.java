@@ -10,8 +10,7 @@ package team03app;
  */
 public class MainMenuCntl {
     
-    
-    MainMenuUI theMainMenuUI = new MainMenuUI(this);
+        MainMenuUI theMainMenuUI = new MainMenuUI(this);
     
     public MainMenuCntl(){
         this.showSplash();
@@ -40,5 +39,4 @@ public class MainMenuCntl {
     public void hideMain(){
         theMainMenuUI.setVisible(false);
     }
-    
 }
