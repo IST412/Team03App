@@ -4,10 +4,18 @@
  */
 package team03app;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 /**
  *
  * @author Cody
  */
 public class Team {
     
+    public Team() {
+        
+                
+    }
 }
