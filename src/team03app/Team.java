@@ -1,19 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package team03app;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Scanner;
-/**
- *
- * @author Cody
- */
+import java.io.*;
+import java.util.*;
+
 public class Team {
 
     File file = new File("TeamInfo.txt");

@@ -1,21 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package team03app;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JTextArea;
+import java.awt.event.*;
+import javax.swing.*;
 
-/**
- *
- * @author Cody
- */
 public class TeamUI extends JFrame implements ActionListener {
 
     private final JButton back;
@@ -40,6 +28,7 @@ public class TeamUI extends JFrame implements ActionListener {
         for (String info : team.info) {
             information.append(info + "\n");
         }
+        information.setOpaque(false);
         information.setBounds(200, 200, 200, 200);
         this.add(information);
         
