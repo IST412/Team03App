@@ -4,10 +4,10 @@ package team03app;
 import java.io.*;
 import java.util.*;
 
-public class Team {
+public final class Team {
 
-    File file = new File("TeamInfo.txt");
-    ArrayList<String> info = new ArrayList<>();
+    private final File file = new File("TeamInfo.txt");
+    public final ArrayList<String> info = new ArrayList<>();
 
     public Team() {
         try {
@@ -15,7 +15,6 @@ public class Team {
         } catch (Exception ex) {
             System.out.println("No file.");
         }
-
     }
 
     public void readInfo(File file) throws FileNotFoundException, IOException {
@@ -23,6 +22,5 @@ public class Team {
         while(in.hasNext()) {
             info.add(in.nextLine());
         }
-        
     }
 }

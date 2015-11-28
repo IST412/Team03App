@@ -9,7 +9,7 @@ public class TeamUI extends JFrame implements ActionListener {
     private final JButton back;
     private final JTextArea information = new JTextArea("");
     private final Team team;
-    TeamCntl theTeamCntl;
+    private final TeamCntl theTeamCntl;
 
     public TeamUI(TeamCntl theTeamCntl) {
         this.theTeamCntl = theTeamCntl;
@@ -30,17 +30,15 @@ public class TeamUI extends JFrame implements ActionListener {
         }
         information.setOpaque(false);
         information.setBounds(200, 200, 200, 200);
-        this.add(information);
-        
+        this.add(information); 
     }
 
+    @Override
     public void actionPerformed(ActionEvent e) {
         String action = e.getActionCommand();
         if (action.equals("< Back")) {
             theTeamCntl.hideTeamUI();
             theTeamCntl.theMainMenuCntl.showMain();
         }
-
     }
-
 }

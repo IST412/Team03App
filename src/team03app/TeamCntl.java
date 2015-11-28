@@ -1,9 +1,9 @@
 
 package team03app;
 
-public class TeamCntl {
+public final class TeamCntl {
     
-    MainMenuCntl theMainMenuCntl;
+    public final MainMenuCntl theMainMenuCntl;
     
     public TeamCntl(MainMenuCntl theMainMenuCntl){
         this.theMainMenuCntl = theMainMenuCntl;
@@ -23,6 +23,5 @@ public class TeamCntl {
     
     public void showMain(){
         theMainMenuCntl.showMain();
-    }
-    
+    }  
 }
