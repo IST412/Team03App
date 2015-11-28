@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 /**
  *
@@ -16,6 +17,7 @@ import java.util.Scanner;
 public class Team {
 
     File file = new File("TeamInfo.txt");
+    ArrayList<String> info = new ArrayList<>();
 
     public Team() {
         try {
@@ -29,7 +31,7 @@ public class Team {
     public void readInfo(File file) throws FileNotFoundException, IOException {
         Scanner in = new Scanner(new FileReader(file));
         while(in.hasNext()) {
-            System.out.println(in.nextLine());
+            info.add(in.nextLine());
         }
         
     }

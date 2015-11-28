@@ -36,7 +36,13 @@ public class TeamUI extends JFrame implements ActionListener {
         back.setBounds(50, 50, 100, 50);
         back.addActionListener(this);
         this.add(back);
-
+        
+        for (String info : team.info) {
+            information.append(info + "\n");
+        }
+        information.setBounds(200, 200, 200, 200);
+        this.add(information);
+        
     }
 
     public void actionPerformed(ActionEvent e) {
