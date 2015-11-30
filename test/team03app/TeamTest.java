@@ -19,24 +19,20 @@ import static org.junit.Assert.*;
  */
 public class TeamTest {
     
+    File fileName;
+    
+    
     public TeamTest() {
     }
     
     @BeforeClass
-    public static void setUpClass() {
-        
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
+    public static void setUpTests() {
+        System.out.println("Starting Tests");
     }
     
     @Before
     public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
+        fileName = new File("/Users/Mazayan/NetBeansProjects/Team03App/TeamInfo.txt");
     }
 
     /**
@@ -44,12 +40,24 @@ public class TeamTest {
      */
     @Test
     public void testReadInfo() throws Exception {
-        System.out.println("readInfo");
-        File file = null;
+        System.out.println("Test of readInfo method");
+        this.setUp();
         Team instance = new Team();
-        instance.readInfo(file);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        instance.readInfo(fileName);
+        System.out.println("Test1: "+ instance.info.toString());
+        assertNotNull(instance.info);
     }
+    
+    @After
+    public void tearDown() {
+        this.fileName = null;
+        System.out.println("Test Finished");
+    }
+    
+    @AfterClass
+    public static void tearDownTest() {
+        System.out.println("All Tests Finished");
+    }
+    
     
 }
