@@ -29,7 +29,7 @@ public class TeamUI extends JFrame implements ActionListener {
             information.append(info + "\n");
         }
         information.setOpaque(false);
-        information.setBounds(200, 200, 200, 200);
+        information.setBounds(250, 150, 350, 300);
         this.add(information); 
     }
 
