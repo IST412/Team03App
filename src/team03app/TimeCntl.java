@@ -8,7 +8,7 @@ package team03app;
  *
  * @author Cody
  */
-public class TimeCntl {
+public final class TimeCntl {
     
     public TimeCntl(MainMenuCntl theMainMenuCntl){
         this.showTimeUI();
