@@ -11,12 +11,12 @@ public final class TimeCntl {
     }
     
     public void showTimeUI(){
-        TimeUI theTimeUI = new TimeUI(this);
-        theTimeUI.setVisible(true);
+       // TimeUI theTimeUI = new TimeUI(this);
+       // theTimeUI.setVisible(true);
     }
     public void hideTimeUI(){
-        TimeUI theTimeUI = new TimeUI(this);
-        theTimeUI.setVisible(false);
+       // TimeUI theTimeUI = new TimeUI(this);
+        //theTimeUI.setVisible(false);
     }
     
     public void showMain() {
