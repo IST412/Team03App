@@ -1,13 +1,39 @@
 Bar Blue
+Monday
+8pm-9pm
 Chrome
+Tuesday
+10pm-11pm
 Lion’s Den
+Tuesday
+7pm-9pm
 Mad Mex
+Wednesday
+5pm-7pm
 The Saloon
+Thursday
+9pm-11pm
 Pickles
+Friday
+7pm-9pm
 Cafe 210
+Saturday
+12pm-3pm
 Indigo
+Saturday
+10pm-12am
 Rathskeller
+Friday
+6pm-9pm
 The Brewery
+Sunday
+10am-12pm
 The Darkhorse Tavern
+Tuesday
+8pm-10pm
 The Phyrst
+Wednesday
+7pm-9pm
 Zenos
+Saturday
+12pm-2pm
