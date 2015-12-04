@@ -1,13 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package team03app;
 
-/**
- *
- * @author Cody
- */
+package team03app;
+import java.io.*;
+import java.util.*;
 public class Time {
-    
+    public Time()
+    {
+        
+    }
 }
