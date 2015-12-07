@@ -14,16 +14,13 @@ public final class TeamCntl {
     
     public void showTeamUI(){
         theTeamUI.setVisible(true);
-        System.out.println("s team ui");
     }
     
     public void hideTeamUI() {
         theTeamUI.setVisible(false);
-        System.out.println("hide team ui");
     }
     
     public void showMain(){
         theMainMenuCntl.showMain();
-        System.out.println("show main");
     }  
 }

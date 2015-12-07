@@ -17,11 +17,11 @@ public class AssignUI extends JFrame implements ActionListener {
         this.setSize(800, 600);
         this.setLocationRelativeTo(null);
         //this.setResizable(false);
-        //this.setLayout(null);
+        this.setLayout(null);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         back = new JButton("< Back");
-        back.setBounds(50, 500, 100, 50);
+        back.setBounds(50, 50, 100, 50);
         back.addActionListener(this);
         this.add(back);
         
@@ -29,7 +29,7 @@ public class AssignUI extends JFrame implements ActionListener {
             assignInfo.append(info + "\n");
         }
         assignInfo.setOpaque(false);
-        //assignInfo.setBounds(250, 150, 350, 300);
+        assignInfo.setBounds(150, 150, 350, 350);
         this.add(assignInfo); 
     }
 
