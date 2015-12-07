@@ -32,6 +32,8 @@ public class TeamTest {
     
     @Before
     public void setUp() {
+        //fileName = new File("/Users/tylerstraffon/documents/NetBeansProjects/Team03App/TeamInfo.txt");
+        //fileName = new File("/Users/Ed/NetBeansProjects/Team03App/TeamInfo.txt");
         fileName = new File("/Users/Mazayan/NetBeansProjects/Team03App/TeamInfo.txt");
     }
 

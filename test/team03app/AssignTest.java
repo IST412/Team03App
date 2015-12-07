@@ -26,7 +26,9 @@ public class AssignTest {
     
     @Before
     public void setUp() {
-        fileName = new File("/Users/Ed/NetBeansProjects/Team03App/Assignment Form.txt");
+        //fileName = new File("/Users/Ed/NetBeansProjects/Team03App/Assignment Form.txt");
+        fileName = new File("/Users/Mazayan/NetBeansProjects/Team03App/Assignment Form.txt");
+        //fileName = new File("/Users/tylerstraffon/documents/NetBeansProjects/Team03App/Assignment Form.txt");
     }
 
     @Test

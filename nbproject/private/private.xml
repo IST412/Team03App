@@ -3,24 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< Updated upstream
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/SplashScreen.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/AssignCntl.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/Assign.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/Bar.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/BarCntl.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/MainMenuCntl.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/MainMenuUI.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/TeamCntl.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/BarUI.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/AssignUI.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/src/team03app/TeamUI.java</file>
-            <file>file:/Users/tylerstraffon/Documents/NetBeansProjects/Team03App/test/team03app/TeamTest.java</file>
-=======
             <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/TimeCntl.java</file>
             <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/Time.java</file>
+            <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/AssignCntl.java</file>
+            <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/Assign.java</file>
+            <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/BarCntl.java</file>
+            <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/BarUI.java</file>
             <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/TimeUI.java</file>
->>>>>>> Stashed changes
+            <file>file:/Users/Mazayan/NetBeansProjects/Team03App/test/team03app/AssignTest.java</file>
+            <file>file:/Users/Mazayan/NetBeansProjects/Team03App/src/team03app/Bar.java</file>
         </group>
     </open-files>
 </project-private>
