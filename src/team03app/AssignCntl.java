@@ -2,6 +2,7 @@ package team03app;
 
 public class AssignCntl {
         public final MainMenuCntl theMainMenuCntl;
+        AssignUI theAssignUI = new AssignUI(this);
 
     public AssignCntl(MainMenuCntl theMainMenuCntl){
         this.theMainMenuCntl = theMainMenuCntl;
@@ -9,12 +10,10 @@ public class AssignCntl {
         theMainMenuCntl.hideMain();
     }
     
-    public void showAssignUI(){
-        AssignUI theAssignUI = new AssignUI( this);
+    public void showAssignUI(){ 
         theAssignUI.setVisible(true);
     }
     public void hideAssignUI() {
-        AssignUI theAssignUI = new AssignUI(this);
         theAssignUI.setVisible(false);
     }
     

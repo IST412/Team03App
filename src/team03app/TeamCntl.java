@@ -4,6 +4,7 @@ package team03app;
 public final class TeamCntl {
     
     public final MainMenuCntl theMainMenuCntl;
+    TeamUI theTeamUI = new TeamUI(this);
     
     public TeamCntl(MainMenuCntl theMainMenuCntl){
         this.theMainMenuCntl = theMainMenuCntl;
@@ -12,16 +13,17 @@ public final class TeamCntl {
     }
     
     public void showTeamUI(){
-        TeamUI theTeamUI = new TeamUI(this);
         theTeamUI.setVisible(true);
+        System.out.println("s team ui");
     }
     
     public void hideTeamUI() {
-        TeamUI theTeamUI = new TeamUI(this);
         theTeamUI.setVisible(false);
+        System.out.println("hide team ui");
     }
     
     public void showMain(){
         theMainMenuCntl.showMain();
+        System.out.println("show main");
     }  
 }
