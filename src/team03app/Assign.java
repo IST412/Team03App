@@ -4,7 +4,7 @@ import java.util.*;
 
 public final class Assign {
     
-     private final File file = new File("Assign Fourm.txt");
+     private final File file = new File("Assignment Form.txt");
     public final ArrayList<String> assignments = new ArrayList<>();
 
     public Assign() {
