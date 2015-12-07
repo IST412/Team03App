@@ -24,6 +24,7 @@ public class BarUI extends JFrame implements ActionListener{
     private final Bar newBar;
     private final JPanel newPanel;
     private String randomBar;
+    private boolean isVisible = false;
     
     
     public BarUI(BarCntl theBarCntl){
@@ -54,8 +55,18 @@ public class BarUI extends JFrame implements ActionListener{
         
         this.add(newPanel);
         
+        
     }
-
+    
+    public boolean frameVisible()
+    {
+        if(newPanel != null)
+        {
+            isVisible = true;
+        }
+        
+        return isVisible;
+    }
 
  
       public void actionPerformed(ActionEvent e){

@@ -13,6 +13,7 @@ import java.util.Random;
 public final class BarCntl {
     
     public final MainMenuCntl theMainMenuCntl;
+    BarUI theBarUI = new BarUI(this);
     
     ArrayList<String> listOfBars = new ArrayList<String>();
     int numberOfBars;
@@ -26,7 +27,7 @@ public final class BarCntl {
     }
     
     public void showBarUI(){
-        BarUI theBarUI = new BarUI(this);
+        
         theBarUI.setVisible(true);
     }
     
@@ -40,6 +41,7 @@ public final class BarCntl {
         randomBarName = listOfBars.get(randomInt);
         return randomBarName;
     }
+    
     
     
     public void hideBarUI(){
