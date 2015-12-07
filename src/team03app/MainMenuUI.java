@@ -34,7 +34,7 @@ public class MainMenuUI extends JFrame implements ActionListener{
         assignmentZone.addActionListener(this);
         teamInformationZone.addActionListener(this);
         this.add(socialZone);
-        this.add(timeManagementZone);
+        //this.add(timeManagementZone);
         this.add(assignmentZone);
         this.add(teamInformationZone);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
