@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class Bar 
 {
-    String filePath = "/Users/h_laessig/NetBeansProjects/Team03App/listOfBars.txt";
+    String filePath = "/Users/tylerstraffon/documents/NetBeansProjects/Team03App/listOfBars.txt";
     
     ArrayList<String> allBarInfo = new ArrayList<String>();
     ArrayList<String> listOfBars = new ArrayList<String>();
@@ -78,6 +78,6 @@ public class Bar
         
         return listOfHours;
     }
-            
-    
+
+
 }
