@@ -31,14 +31,14 @@ public class AssignTest {
         //fileName = new File("/Users/tylerstraffon/documents/NetBeansProjects/Team03App/Assignment Form.txt");
     }
 
-    @Test
+   @Test
     public void testReadInfo() throws Exception {
         System.out.println("Assign Test 2 of readInfo method");
         this.setUp();
-        Team instance = new Team();
+        Assign instance = new Assign();
         instance.readInfo(fileName);
-        System.out.println("Assign Test2: "+ instance.info.toString());
-        assertNotNull(instance.info);
+        System.out.println("Assign Test2: "+ instance.assignments.toString());
+        assertNotNull(instance.assignments);
     }
     
     @After
