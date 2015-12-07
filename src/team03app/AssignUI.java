@@ -25,18 +25,6 @@ public class AssignUI extends JFrame implements ActionListener {
         back.addActionListener(this);
         this.add(back);
         
-        
-        
-        feedback = new JButton("Feedback");
-        feedback.setBounds(250, 500, 100, 50);
-        feedback.addActionListener(this);
-        this.add(feedback);
-        
-        jUnit = new JButton("JUnit Test");
-        jUnit.setBounds(350, 500, 100, 50);
-        jUnit.addActionListener(this);
-        this.add(jUnit);
-        
         for (String info : assign.assignments) {
             assignInfo.append(info + "\n");
         }
