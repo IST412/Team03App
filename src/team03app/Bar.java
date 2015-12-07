@@ -14,8 +14,8 @@ import java.util.Scanner;
  */
 public class Bar 
 {
-    String filePath = "/Users/tylerstraffon/documents/NetBeansProjects/Team03App/listOfBars.txt";
-    
+    //String filePath = "/Users/tylerstraffon/documents/NetBeansProjects/Team03App/listOfBars.txt";
+    String filePath = "listOfBars.txt";
     ArrayList<String> allBarInfo = new ArrayList<String>();
     ArrayList<String> listOfBars = new ArrayList<String>();
     ArrayList<String> listOfHours = new ArrayList<String>();
