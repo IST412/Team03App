@@ -5,7 +5,7 @@ import javax.swing.*;
 
 public class AssignUI extends JFrame implements ActionListener {
 
-    private final JButton back, feedback, jUnit;
+    private final JButton back;
     private final JTextArea assignInfo = new JTextArea("");
     private final Assign assign;
     private final AssignCntl theAssignCntl;
